@@ -5,12 +5,35 @@ permalink: /download/
 toc: true
 ---
 
-## Download and Install MISP
+## Source code
 
-[MISP source code is available on GitHub](https://github.com/MISP/MISP) including documentation and scripts for installation.
+The MISP [source code](https://github.com/MISP/MISP)  is available on GitHub, including documentation and scripts for installation.
 
 [ChangeLog](/Changelog.txt) contains a detailed list of updates for each software release in the core of the MISP software.
 
+## Installation
+### Requirements
+MISP is written using PHP, and several of the components use Python. To install MISP you will need a server with PHP 7.4, and a webserver capable of rendering PHP (i.e. Apache or Nginx). 
+When it comes to MISP and PHP 8.0, [read this](https://github.com/MISP/MISP/blob/2.4/README.md#php-and-misp).
+
+
+MISP can thus easily be installed on any standard GNU/Linux distribution. Common and recommended distributions are the current stable versions of Red Hat, Debian or Ubuntu. 
+The only official supported method of installing MISP is 
+
+Installation guides for various distributions are included in the [INSTALL directory](https://github.com/MISP/MISP/tree/2.4/INSTALL). If you did a git clone of MISP for the installation, an [UPDATE procedure is available](https://github.com/MISP/MISP/blob/2.4/INSTALL/UPDATE.txt) to keep your MISP up-to-date.
+
+
+
+
+<!-- 
+Install script - should really be tested on 
+Red Hat (trial?) 8+9  (add to CI?)
+
+Install script - should really be tested on re-tested on
+Ubuntu 20.04.2  (add to CI?)
+
+
+-->
 MISP Install guides (stock install instructions for getting a base MISP system running) are available at [https://misp.github.io/MISP/](https://misp.github.io/MISP/).
 
 ### Requirements
